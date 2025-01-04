@@ -37,7 +37,7 @@ git clone https://github.com/emscripten-core/emsdk.git
 cd emsdk
 ./emsdk install 3.1.39
 ./emsdk activate 3.1.39
-source ./emsdk.sh     (or ./emsdk.bat on windows)
+source ./emsdk_env.sh     (or ./emsdk.bat on windows)
 ```
 
 It would also be **highly** recommended to follow the instructions in the terminal to add `emcc`[^2] to your `PATH`.
